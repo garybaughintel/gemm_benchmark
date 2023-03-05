@@ -36,7 +36,7 @@ double data_type_benchmark()
   }
 
   operations_per_cycle /= static_cast<double>(INTERATIONS);
-  return operations_per_cycle;
+  return (operations_per_cycle * 2.0);
 }
 
 int main()
